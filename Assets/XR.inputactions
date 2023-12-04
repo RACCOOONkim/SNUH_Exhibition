@@ -1,0 +1,34 @@
+{
+    "name": "XR",
+    "maps": [
+        {
+            "name": "Oculus",
+            "id": "7426af0f-f3cf-416d-b4aa-f0d0cdfb1c85",
+            "actions": [
+                {
+                    "name": "Calibration",
+                    "type": "Button",
+                    "id": "7436a962-76a7-4032-9360-7d5f9c5411ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b534a507-7c7c-430e-b56a-0c6fc35e6da9",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Calibration",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
