@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: -2665745040324450269}
   - component: {fileID: 8319904766746451012}
   m_Layer: 0
-  m_Name: Network Player4
+  m_Name: Network Player6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -492,7 +492,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6e82c99b8b1381c41a7d60541615d304, type: 2}
+      objectReference: {fileID: 2100000, guid: 7acc19bd003924741bc5c0cef8a30737, type: 2}
     - target: {fileID: 919132149155446097, guid: 1f7f593d316220044bf253ce6d2735f6,
         type: 3}
       propertyPath: m_Name

@@ -291,8 +291,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7229368190405102568}
   - component: {fileID: 7229368190405102569}
-  - component: {fileID: 7229368190405102573}
-  - component: {fileID: 7229368190405102571}
   - component: {fileID: 268444161368010465}
   - component: {fileID: 268444161368010464}
   - component: {fileID: -2665745040324450269}
@@ -347,47 +345,6 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &7229368190405102573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7229368190405102570}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e9813c68d7d6f44282ace8bd2d1fd46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  photonView: {fileID: 7229368190405102569}
-  leftHand: {fileID: 0}
-  rightHand: {fileID: 0}
-  controllers: {fileID: 0}
-  m_UseOptimizedControls: 0
-  m_LeftHandMesh: {fileID: 4118691941764178602}
-  m_RightHandMesh: {fileID: 0}
-  m_HandMeshMaterial: {fileID: 0}
-  m_DrawMeshes: 0
-  m_DebugDrawPrefab: {fileID: 0}
-  m_DebugDrawJoints: 0
-  m_VelocityPrefab: {fileID: 0}
-  m_VelocityType: 0
---- !u!114 &7229368190405102571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7229368190405102570}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a31b6514c42ae2c41ac420b4ad185b4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 0}
-  photonView: {fileID: 7229368190405102569}
-  leftControllerObject: {fileID: 4118691941764178602}
-  rightControllerObject: {fileID: 3453747145651605981}
 --- !u!114 &268444161368010465
 MonoBehaviour:
   m_ObjectHideFlags: 0
