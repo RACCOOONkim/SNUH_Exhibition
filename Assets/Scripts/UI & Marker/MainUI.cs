@@ -51,15 +51,19 @@ public class MainUI : MonoBehaviour
         if (_isOn)
         {
             _agent.enabled = true;
-            navmeshMovement.enabled = true;
+            if (navmeshMovement != null)
+                navmeshMovement.enabled = true;
             GenerateParentUI();
+            if(npcNavmeshMovement!=null)
             npcNavmeshMovement.ChangePivot(uiActivePivot);
         }
         else
         {
+            if(navmeshMovement!=null)
             navmeshMovement.enabled = false;
             _agent.enabled = false;
-            npcNavmeshMovement.ChangePivot(defaultPivot);
+            if (npcNavmeshMovement != null)
+                npcNavmeshMovement.ChangePivot(defaultPivot);
         }
     }
 
